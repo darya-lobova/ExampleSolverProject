@@ -28,8 +28,8 @@ void init_random(int &a, int &b, int &c, int upper_border,
 }
 
 string convert(int a, int b, int c, int result, char math_sign1, char math_sign2, char equal_sign) {
-	string s = to_string(a) + " " + math_sign1 + to_string(b) + " " + math_sign2
-		+ to_string(c) + " " + equal_sign + to_string(result);
+	string s = to_string(a) + " " + math_sign1 + " " + to_string(b) + " " + math_sign2
+		+ " " + to_string(c) + " " + equal_sign + " " + to_string(result);
 
 	return s;
 }
